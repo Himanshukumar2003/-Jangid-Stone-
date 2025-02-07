@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="css/index.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+          <a class="navbar-brand" href="index.html">
+              <img src="img/logo.png" alt="Jangid Stone Logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+              <i class="bi bi-list"></i>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul class="navbar-nav align-items-center">
+                  <li class="nav-item">
+                      <a class="nav-link " href="index.html">Home</a>
+                  </li>
+
+                  <li class="nav-item">
+                      <a class="nav-link" href="about.html">About Us</a>
+                  </li>
+
+                  <li class="nav-item">
+                      <a class="nav-link" href="services.html">Our Services</a>
+                  </li>
+                  
+                  <!-- <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="services.html" role="button" data-bs-toggle="dropdown"
+                          aria-expanded="false">
+                          Services
+                      </a>
+                      <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="service-details.html">Custom Home Builds</a></li>
+                          <li><a class="dropdown-item" href="service-details.html">Renovations</a></li>
+                          <li><a class="dropdown-item" href="service-details.html">Home Management</a></li>
+                          <li><a class="dropdown-item" href="service-details.html">Interior Design</a></li>
+                      </ul>
+                  </li> -->
+                  <li class="nav-item ">
+                      <a class="nav-link active" href="project.html"> <!--  role="button" data-bs-toggle="dropdown"
+                          aria-expanded="false" -->
+                          Projects
+                      </a>
+                      <!-- <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Residential</a></li>
+                          <li><a class="dropdown-item" href="#">Commercial</a></li>
+                          <li><a class="dropdown-item" href="#">Portfolio</a></li>
+                          <li><a class="dropdown-item" href="#">Recent Work</a></li>
+                      </ul> -->
+                  </li>
+                  
+                  <li class="nav-item">
+                                              <a class="nav-link" href="gallery.html">Our Gallery</a>
+
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+
+                  <li class="nav-item">
+                      <a class="btn-primary " href="contact.html">Contact</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+  <section class="page-bannner">
+    <div class="container">
+      <div class="hero-content">
+        <h1 class="hero-title">Contact Us</h1>
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb mb-0">
+            <li class="breadcrumb-item">
+              <a href="index.html"><i class="bi bi-house-door"></i>Home</a>
+            </li>
+            <li class="breadcrumb-item active" aria-current="page">
+              Contact Us
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+  </section>
+  <section class="section-padding">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-5">
+          <div class="contact-section-left">
+            <h2 class="contact-title" data-aos="fade-left" data-aos-delay="300">
+              Get In Touch With Us
+            </h2>
+            <p data-aos="fade-right" data-aos-delay="500">
+              For inquiries, expert guidance, or customized stone solutions,
+              feel free to reach out. We’re here to assist you.
+            </p>
+
+            <div class="contact-item" data-aos="fade-up" data-aos-delay="800">
+              <i class="bi bi-house-door-fill"></i>
+              <div>
+                <h5>Visit A Office</h5>
+                <p>
+                  Prop. no. 141, Mandi Hills, Mandi, New Delhi, Delhi 110047
+                </p>
+              </div>
+            </div>
+
+            <div class="contact-item" data-aos="fade-up" data-aos-delay="700">
+              <i class="bi bi-telephone-fill"></i>
+              <div>
+                <h5>Contact Us</h5>
+                <p>
+                  +91-9873860461<br />
+                  +91-9999010461
+                </p>
+              </div>
+            </div>
+
+            <div class="contact-item" data-aos="fade-up" data-aos-delay="700">
+              <i class="bi bi-envelope-fill"></i>
+              <div>
+                <h5>Email</h5>
+                <p>jangidstoneinterior@gmail.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-7">
+          <form class="contact-form" id="contactForm" action="process_form.php" method="POST" novalidate>
+            <div class="row">
+              <div class="col-md-6 form-group" data-aos="fade-up" data-aos-delay="200">
+                <input type="text" class="form-control" id="name" name="name" placeholder="Name" required />
+                <p class="error-message" id="nameError">
+                  Please enter your name
+                </p>
+              </div>
+              <div class="col-md-6 form-group" data-aos="fade-up" data-aos-delay="400">
+                <input type="email" class="form-control" id="email" name="email" placeholder="Email" required />
+                <p class="error-message" id="emailError">
+                  Please enter a valid email address
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 form-group" data-aos="fade-up" data-aos-delay="600">
+                <input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone Number" required />
+                <p class="error-message" id="phoneError">
+                  Please enter a valid phone number
+                </p>
+              </div>
+              <div class="col-md-6 form-group" data-aos="fade-up" data-aos-delay="800">
+                <input type="text" class="form-control" id="address" name="address" placeholder="Address" required />
+                <p class="error-message" id="addressError">
+                  Please enter your Address
+                </p>
+              </div>
+            </div>
+            <div class="form-group" data-aos="fade-up" data-aos-delay="1000">
+              <textarea class="form-control" id="message" name="message" placeholder="Write Your Message"
+                required></textarea>
+              <p class="error-message" id="messageError">
+                Please enter your message
+              </p>
+            </div>
+            <button type="submit" class="submit-btn" data-aos="fade-up" data-aos-delay="1200">
+              Send Now
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="google-map">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112210.69793797898!2d77.02595728316287!3d28.4920628854439!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1f0b95c44d6d%3A0x843966eec49e3818!2sJangid%20Stone%20%26%20Interior!5e0!3m2!1sen!2sin!4v1738668269090!5m2!1sen!2sin"
+      width="100%" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+     <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-6 footer-section">
+                    <h2 class="footer-title">JANGID STONE & INTERIOR</h2>
+                    <p>Jangid Stone & Interior brings decades of experience in providing high-end stone solutions
+                        specifically designed for luxurious environments. Our dedication to quality, innovation, and
+                        meticulous craftsmanship guarantees that each project becomes a testament to durability and
+                        sophistication.
+
+                    </p>
+                    <div class="social-links">
+                        <a href="javascript:void(0);"><i class="bi bi-facebook"></i></a>
+                        <a href="javascript:void(0);"><i class="bi bi-twitter"></i></a>
+                        <a href="javascript:void(0);"><i class="bi bi-linkedin"></i></a>
+                        <a href="javascript:void(0);"><i class="bi bi-instagram"></i></a>
+                        <a href="javascript:void(0);"><i class="bi bi-tumblr"></i></a>
+                    </div>
+                    
+                </div>
+                <div class="col-lg-2 col-md-6 footer-section">
+                    <h3 class="footer-heading">Quick links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 footer-section">
+                    <h3 class="footer-heading">Our Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="stone-installation.html">Stone Installation</a></li>
+                        <li><a href="stone-polishing.html">Stone Polishing</a></li>
+                        <li><a href="stone-inlay.html">Stone Inlay</a></li>
+
+                        <li><a href="custom-home-design.html">Custom Home Design</a></li>
+
+                        <li><a href="stone-cnc-work.html">Stone CNC Work</a></li>
+
+                        <li><a href="stone-facade-dry-cladding-work.html">StoneFaçade Dry Cladding work</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 footer-section">
+                    <h3 class="footer-heading">Contact Us</h3>
+                    <div class="office-location">
+                        <i class="bi bi-telephone"></i>
+                        <div>
+                            <small>
+                                <a href="tel:9873860461">+91-9873860461</a>,
+                                <a href="tel:9999010461">9999010461</a>
+                            </small>
+                        </div>
+                    </div>
+                    <div class="office-location">
+                        <i class="bi bi-envelope"></i>
+                        <div>
+                            <a href="mailto:jangidstoneinterior@gmail.com">
+                                <small>jangidstoneinterior@gmail.com</small>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="office-location">
+                        <i class="bi bi-building"></i>
+                        <div>
+                            <small>Prop. no. 141, Mandi Hills, Mandi, New Delhi, Delhi
+                                110047</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <p class="mb-0">© All Rights Reserved 2025</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+  AOS.init({
+    duration: 800,
+    once: true,
+  });
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/swiper.js"></script>
+<script src="js/swiper.js"></script>
+<script src="js/contact.js"></script>
+
+</html>

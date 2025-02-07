@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.png" alt="Jangid Stone Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <i class="bi bi-list"></i>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link " href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Our Services</a>
+                    </li>
+                    
+                    <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="services.html" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="service-details.html">Custom Home Builds</a></li>
+                            <li><a class="dropdown-item" href="service-details.html">Renovations</a></li>
+                            <li><a class="dropdown-item" href="service-details.html">Home Management</a></li>
+                            <li><a class="dropdown-item" href="service-details.html">Interior Design</a></li>
+                        </ul>
+                    </li> -->
+                    <li class="nav-item ">
+                        <a class="nav-link" href="project.html"> <!--  role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false" -->
+                            Projects
+                        </a>
+                        <!-- <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Residential</a></li>
+                            <li><a class="dropdown-item" href="#">Commercial</a></li>
+                            <li><a class="dropdown-item" href="#">Portfolio</a></li>
+                            <li><a class="dropdown-item" href="#">Recent Work</a></li>
+                        </ul> -->
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Our Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="btn-primary " href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="hero ">
+        <div class="overly"></div>
+        <div class="video-contanier">
+            <video src="vedios/Stone-Collection-exposure-boost-hero.mp4" type="video/mp4" autoplay muted loop>
+        </div>
+        <div class="container hero-content">
+            <h1 data-aos="fade-up" data-aos-delay="200">Where Excellence Meets Elegance</h1>
+            <p data-aos="flip-left" data-aos-delay="500">With an unwavering dedication to perfection, we transform every
+                space into a statement of elegance and luxury.</p>
+
+            <div>
+                <a href="services.html" class="hero-btn btn-primary mb-4 mb-lg-0" data-aos="fade-up"
+                    data-aos-delay="500">View Services</a>
+                <a href="about.html" class="hero-btn btn-outline" data-aos="fade-up" data-aos-delay="800">About Us →</a>
+            </div>
+        </div>
+    </section>
+    <section class="what-we-do section-padding ">
+        <div class="container">
+            <div class="row g-4 align-items-center z-5">
+                <div class="col-lg-6 order-2 order-lg-1 ">
+                    <h1 data-aos="fade-right" data-aos-delay="200">What We Do</h1>
+                    <p data-aos="fade-left" data-aos-delay="400">At Jangid Stone & Interior, we are global leaders in
+                        stone installation and restoration, blending timeless craftsmanship with modern techniques to
+                        create exquisite and durable stonework. Our expertise spans across premium residential,
+                        commercial, and luxury projects, ensuring perfection in every detail.</p>
+
+                    <div class="row g-4">
+
+                        <div class="col-md-12">
+                            <div class="feature-box" data-aos="fade-right" data-aos-delay="500">
+                                <div>
+                                    <div class=" feature-icon">
+                                        <i class="bi bi-tools"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h3 class="feature-title">EXPERTISE & PRECISION</h3>
+                                    <p class="feature-text">Our skilled artisans and advanced techniques bring life to
+                                        every stone, delivering flawless installations and intricate detailing that
+                                        redefine elegance.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="feature-box" data-aos="fade-left" data-aos-delay="600">
+                                <div>
+                                    <div class=" feature-icon">
+                                        <i class="bi bi-tools"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h3 class="feature-title">SERVICES WE OFFER</h3>
+                                    <p class="feature-text">We specialize in Stone Installation, Stone Consultancy,
+                                        Polishing, Inlay Work, CNC Work, and Stone Facade Work, offering customized
+                                        solutions that enhance architectural beauty.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="about.html" class="btn-primary" data-aos="fade-right" data-aos-delay="700">Learn More</a>
+
+                </div>
+
+                <div class=" col-lg-6 order-1 order-lg-2">
+                    <img src="img/services/about.jpg" class="img-fluid about-img" data-aos="zoom-in-left"
+                        data-aos-delay="800">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="why-choose-section">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-5 mb-5 mb-lg-0">
+                    <h2 class="section-title" data-aos="fade-right" data-aos-delay="200">Why Choose Us:</h2>
+                    <p class="section-text" data-aos="fade-left" data-aos-delay="400">With over two decades of
+                        expertise, Jangid Stone & Interior is a trusted name in premium stone craftsmanship. We blend
+                        traditional artistry with modern techniques to create stunning, long-lasting installations. Our
+                        commitment to quality, precision, and client satisfaction ensures every project is a
+                        masterpiece.</p>
+                    <a href="about.html" class="btn-primary" data-aos="fade-right" data-aos-delay="600">ABOUT US</a>
+                </div>
+
+
+                <div class="col-lg-6 offset-lg-1">
+
+                    <div class="feature-box" data-aos="fade-up" data-aos-delay="800">
+                        <div>
+                            <div class="feature-icon">
+                                <i class="bi bi-lightbulb"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="feature-title">EXCEPTIONAL CRAFTSMANSHIP</h3>
+                            <p class="feature-text">Combining time-honored techniques with modern innovation, we craft
+                                elegant and enduring stone installations.</p>
+                        </div>
+                    </div>
+
+
+                    <div class="feature-box" data-aos="fade-up" data-aos-delay="1000">
+                        <div>
+                            <div class="feature-icon">
+                                <i class="bi bi-tools"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="feature-title">UNMATCHED QUALITY</h3>
+                            <p class="feature-text">We prioritize precision and durability, using only the finest
+                                materials to enhance the beauty and value of every space.</p>
+                        </div>
+                    </div>
+
+
+                    <div class="feature-box" data-aos="fade-up" data-aos-delay="1200">
+                        <div>
+                            <div class="feature-icon">
+                                <i class="bi bi-shield-check"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="feature-title">CLIENT-CENTRIC APPROACH
+                            </h3>
+                            <p class="feature-text">Every project is tailored to your vision, with personalized
+                                consultation and meticulous execution to exceed expectations.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="services-section bg-white">
+        <div class="container">
+            <div class="services-header">
+                <h1 data-aos="fade-right" data-aos-delay="200">Our Expert Stone & Marble Services</h1>
+                <p data-aos="fade-left" data-aos-delay="400">Delivering precision and excellence, Jangid Stone &
+                    Interior offers premium stone installation, polishing, and façade work to enhance luxury spaces with
+                    timeless craftsmanship.</p>
+            </div>
+
+            <div class="swiper services-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+                            <span class="service-number">01</span>
+                            <img src="/img/services/s1.jpg" alt="Stone
+                            Installation
+                            " class="service-image">
+                            <div class="service-content">
+                                <h3 class="service-title">Stone
+                                    Installation
+                                </h3>
+                                <p class="service-description">At Marble Installation Experts, we
+                                    specialize in transforming spaces with
+                                    the timeless elegance of marble. With
+                                    years of experience and a passion for
+                                    perfection, our skilled team ensures
+                                    impeccable installation that
+                                    enhances the beauty and value of
+                                    your home or business. From luxurious
+                                    flooring to stunning countertops, we
+                                    deliver quality craftsmanship and
+                                    unmatched attention to detail. Trust
+                                    us to bring your vision to life with the
+                                    natural beauty of marble</p>
+                                    <a class="learn-more" href="stone-installation.html">Learn More <i class="bi bi-arrow-right"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="service-card" data-aos="fade-up" data-aos-delay="600">
+                            <span class="service-number">02</span>
+                            <img src="/img/services/s2.jpg" alt="Custom Home Design" class="service-image">
+                            <div class="service-content">
+                                <h3 class="service-title">Stone
+                                    Polishing</h3>
+                                <p class="service-description">At New Marble Silicate Flooring Polish, we
+                                    specialize in revitalizing marble surfaces with
+                                    our advanced silicate polishing techniques. Our
+                                    expert team uses cutting- edge technology to
+                                    enhance the natural beauty and durability of
+                                    marble floors, providing a mirror-like finish that
+                                    lasts.</p>
+                                    <a class="learn-more" href="stone-polishing.html">Learn More <i class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="service-card" data-aos="fade-up" data-aos-delay="700">
+                            <span class="service-number">03</span>
+                            <img src="img/services/s3.jpg" alt="Custom Home Design" class="service-image">
+                            <div class="service-content">
+                                <h3 class="service-title">Stone
+                                    Inlay</h3>
+                                <p class="service-description">At Exquisite Stone Inlay Work, we bring artistry and
+                                    craftsmanship together to create stunning stone inlay
+                                    designs. Our skilled artisans meticulously craft intricate
+                                    patterns using a variety of precious and semi-precious
+                                    stones, transforming ordinary surfaces into extraordinary
+                                    works of art. </p>
+                                    <a class="learn-more" href="stone-inlay.html">Learn More <i class="bi bi-arrow-right"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="service-card" data-aos="fade-up" data-aos-delay="800">
+                            <span class="service-number">04</span>
+                            <img src="/img/services/s4.jpg" alt="Custom Home Design" class="service-image">
+                            <div class="service-content">
+                                <h3 class="service-title">Custom Home Design</h3>
+                                <p class="service-description">Create your dream home with our expert architects and
+                                    designers. We bring your vision to life with meticulous attention to detail.</p>
+                                    <a class="learn-more" href="custom-home-design.html">Learn More <i class="bi bi-arrow-right"></i></a>
+
+                                </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="service-card" data-aos="fade-up" data-aos-delay="900">
+                            <span class="service-number">05</span>
+                            <img src="/img/services/s5.JPG" alt="Custom Home Design" class="service-image">
+                            <div class="service-content">
+                                <h3 class="service-title">Stone
+                                    CNC Work</h3>
+                                <p class="service-description">At Precision Marble CNC Work, we harness the
+                                    power of cutting-edge CNC technology to craft
+                                    intricate and precise marble designs. Our
+                                    expert team transforms marble slabs into
+                                    stunning architectural elements, decorative
+                                    pieces, and custom designs with unparalleled
+                                    accuracy and detail.</p>
+                                    <a class="learn-more" href="stone-cnc-work.html">Learn More <i class="bi bi-arrow-right"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="service-card" data-aos="fade-up" data-aos-delay="1000">
+                            <span class="service-number">06</span>
+                            <img src="img/services/s6.jpg" alt="Custom Home Design" class="service-image">
+                            <div class="service-content">
+                                <h3 class="service-title">Stone Façade
+                                    Dry Cladding
+                                    work</h3>
+                                <p class="service-description">At Elegant Stone Facade Creations, we specialize in
+                                    crafting captivating stone facades that enhance the beauty and
+                                    appeal of any building. With a keen eye for detail and a commitment to quality, our
+                                    expert team transforms exteriors
+                                    into works of art using a variety of premium stone materials. From classic to
+                                    contemporary designs, we tailor each
+                                    facade to complement the architectural style and vision of our clients. Trust us to
+                                    elevate your building's exterior with
+                                    our elegant stone facade solutions</p>
+                                    <a class="learn-more" href="stone-facade-dry-cladding-work.html">Learn More <i class="bi bi-arrow-right"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination" data-aos="fade-up" data-aos-delay="800"></div>
+                <div class="swiper-button-next" data-aos="fade-left" data-aos-delay="800"></div>
+                <div class="swiper-button-prev" data-aos="fade-right" data-aos-delay="800"></div>
+            </div>
+        </div>
+    </section>
+    <section class="stats-section bg-light">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <div class="stat-item counter-item">
+                        <div class="stat-number">
+                            <span class="counter" data-target="12">0</span>+
+                        </div>
+                        <div class="stat-label">Years of Experience</div>
+                    </div>
+                </div>
+
+                <!-- Projects Completed -->
+                <div class="col-md-4">
+                    <div class="stat-item counter-item">
+                        <div class="stat-number">
+                            <span class="counter" data-target="100">0</span>+
+                        </div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                </div>
+
+                <!-- Homes Managed -->
+                <div class="col-md-4">
+                    <div class="stat-item counter-item">
+                        <div class="stat-number">
+                            <span class="counter" data-target="50">0</span>+
+                        </div>
+                        <div class="stat-label">Homes Managed</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="project-slider-section">
+        <div class="services-header">
+            <h1 data-aos="fade-right" data-aos-delay="200">Our Project</h1>
+            <p data-aos="fade-left" data-aos-delay="300">Showcasing excellence in stone craftsmanship, our projects
+                redefine luxury with precision, durability, and timeless elegance.</p>
+        </div>
+        <div class="container ">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper ">
+                    <div class="swiper-slide">
+                        <div class="project-card" data-aos="fade-up" data-aos-delay="500">
+                            <img src="img/services/p1.jpg" alt="Urban Retreat" class="project-image">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="project-card" data-aos="fade-up" data-aos-delay="600">
+                            <img src="img/services/p2.jpg" alt="Luxurious Loft" class="project-image img-fluid">
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="project-card" data-aos="fade-up" data-aos-delay="700">
+                            <img src="img/services/p3.jpg" alt="Urban Retreat" class="project-image">
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="project-card" data-aos="fade-up" data-aos-delay="800">
+                            <img src="img/services/p13.jpg" alt="Urban Retreat" class="project-image">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="project-card" data-aos="fade-up" data-aos-delay="900">
+                            <img src="img/services/p14.jpg" alt="Urban Retreat" class="project-image">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="project-card" data-aos="fade-up" data-aos-delay="1000">
+                            <img src="img/services/p15.jpg" alt="Urban Retreat" class="project-image">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-button-next" data-aos="fade-right" data-aos-delay="800"></div>
+                <div class="swiper-button-prev" data-aos="fade-left" data-aos-delay="1000"></div>
+            </div>
+
+
+        </div>
+    </section>
+    <section class="reviews-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-aos="fade-right" data-aos-delay="200">What Our Clients Say</h2>
+                <p class="section-subtitle" data-aos="fade-left" data-aos-delay="300">Read what our clients have to say
+                    about their experience with us. From quality service to seamless execution, their trust and
+                    satisfaction drive everything we do.</p>
+            </div>
+            <div class="swiper custom-swiper">
+                <div class="swiper-wrapper py-4">
+                    <div class="swiper-slide" data-aos="fade-up" data-aos-delay="100">
+                        <div class="review-card">
+                            <div class="reviewer-profile">
+                                <img src="img/user.png" alt="Profule Image" class="profile-image">
+                                <div class="reviewer-info">
+                                    <h3>Ashish Bhasin</h3>
+                                    <p>Director, Marco Solutions</p>
+                                    <div class="verified-badge">
+                                        <i class="bi bi-patch-check-fill"></i>
+                                        Verified Review
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="review-content">"I have been in the chemical line for years now but have not seen
+                                any
+                                stone applicator who does their work with such ease.
+                                Your professionalism was constant even during times when we didn’t necessarily agree on
+                                something.
+                                Your focus and vision has always been spot on.
+                                Keep up the good work & all the best."</p>
+                            <div class="rating">
+                                <i class="bi bi-star-fill star"></i>
+                                <i class="bi bi-star-fill star"></i>
+                                <i class="bi bi-star-fill star"></i>
+                                <i class="bi bi-star-fill star"></i>
+                                <i class="bi bi-star-fill star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="review-card" data-aos="fade-up" data-aos-delay="200">
+                            <div class="reviewer-profile">
+                                <img src="img/user.png" alt="Profule Image" class="profile-image">
+                                <div class="reviewer-info">
+                                    <h3>Manish Kothari</h3>
+                                    <p>Director, Sales, Mumbai</p>
+                                    <div class="verified-badge">
+                                        <i class="bi bi-patch-check-fill"></i>
+                                        Verified Review
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="review-content">"In words of Jerzy Kosinski, - 'The principles of true art is not
+                                to
+                                portray, but to evoke'
+                                For me this phrase defines why work of JSI stands class apart. A qualified team of
+                                masons
+                                can portray what is required of them from professional drawings, yet to evoke the spirit
+                                of
+                                design, you need to understand not just the technicalities, but also the emotions,
+                                vision,
+                                and style of the décor being sought.
+                                Mr. Deendayal is dynamic and reciprocates well to the challenging"
+                            </p>
+                            <div class="rating">
+                                <i class="bi bi-star-fill star"></i>
+                                <i class="bi bi-star-fill star"></i>
+                                <i class="bi bi-star-fill star"></i>
+                                <i class="bi bi-star-fill star"></i>
+                                <i class="bi bi-star-fill star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="review-card" data-aos="fade-up" data-aos-delay="300">
+                            <div class="reviewer-profile">
+                                <img src="img/user.png" alt="Profule Image" class="profile-image">
+                                <div class="reviewer-info">
+                                    <h3>Saurav Aggarwal </h3>
+                                    <p>Director, Stonex India</p>
+                                    <div class="verified-badge">
+                                        <i class="bi bi-patch-check-fill"></i>
+                                        Verified Review
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="review-content">"They have everything a homeowner wants in a stone contractor.
+                                Very
+                                Professional and Efficient.
+                                Possess very deep technical knowledge about marble installation which very few in the
+                                industry can match that.
+                                I have personally seen their work and without any doubt, they take great pride in each
+                                and
+                                every project they work."</p>
+                            <div class="rating">
+                                <i class="bi bi-star-fill star"></i>
+                                <i class="bi bi-star-fill star"></i>
+                                <i class="bi bi-star-fill star"></i>
+                                <i class="bi bi-star-fill star"></i>
+                                <i class="bi bi-star-fill star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="review-card" data-aos="fade-up" data-aos-delay="400">
+                            <div class="reviewer-profile">
+                                <img src="img/user.png" alt="Profule Image" class="profile-image">
+                                <div class="reviewer-info">
+                                    <h3>Ashok Chandak </h3>
+                                    <p>Director, Chandak Laboratories</p>
+                                    <div class="verified-badge">
+                                        <i class="bi bi-patch-check-fill"></i>
+                                        Verified Review
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="review-content">"12 years of association, 3 tastefully completed projects (plus
+                                one
+                                more coming up shortly) - this defines our trust in Mr. Deendayal.
+                                His experience and knowledge on the subject of laying has helped me select stones where
+                                even
+                                my architect had faltered,
+                                and once the selection is done, I leave it to him to execute - be it a immaculate coving
+                                on
+                                wall skirting or b the subtle chequering of bathroom floor to provide grip among many
+                                other
+                                facets of his work."</p>
+                            <div class="rating">
+                                <i class="bi bi-star-fill star"></i>
+                                <i class="bi bi-star-fill star"></i>
+                                <i class="bi bi-star-fill star"></i>
+                                <i class="bi bi-star-fill star"></i>
+                                <i class="bi bi-star-fill star"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="review-card" data-aos="fade-up" data-aos-delay="500">
+                            <div class="reviewer-profile">
+                                <img src="img/user.png" alt="Profule Image" class="profile-image">
+                                <div class="reviewer-info">
+                                    <h3>Ashish Bhasin</h3>
+                                    <p>Director, Marco Solutions</p>
+                                    <div class="verified-badge">
+                                        <i class="bi bi-patch-check-fill"></i>
+                                        Verified Review
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="review-content">"I have been in the chemical line for years now but have not seen
+                                any
+                                stone applicator who does their work with such ease.
+                                Your professionalism was constant even during times when we didn’t necessarily agree on
+                                something.
+                                Your focus and vision has always been spot on.
+                                Keep up the good work & all the best."</p>
+                            <div class="rating">
+                                <i class="bi bi-star-fill star"></i>
+                                <i class="bi bi-star-fill star"></i>
+                                <i class="bi bi-star-fill star"></i>
+                                <i class="bi bi-star-fill star"></i>
+                                <i class="bi bi-star-fill star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="review-card" data-aos="fade-up" data-aos-delay="600">
+                            <div class="reviewer-profile">
+                                <img src="img/user.png" alt="Profule Image" class="profile-image">
+                                <div class="reviewer-info">
+                                    <h3>Manish Kothari</h3>
+                                    <p>Director, Sales, Mumbai</p>
+                                    <div class="verified-badge">
+                                        <i class="bi bi-patch-check-fill"></i>
+                                        Verified Review
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="review-content">"In words of Jerzy Kosinski, - 'The principles of true art is not
+                                to
+                                portray, but to evoke'
+                                For me this phrase defines why work of JSI stands class apart. A qualified team of
+                                masons
+                                can portray what is required of them from professional drawings, yet to evoke the spirit
+                                of
+                                design, you need to understand not just the technicalities, but also the emotions,
+                                vision,
+                                and style of the décor being sought.
+                                Mr. Deendayal is dynamic and reciprocates well to the challenging"
+                            </p>
+                            <div class="rating">
+                                <i class="bi bi-star-fill star"></i>
+                                <i class="bi bi-star-fill star"></i>
+                                <i class="bi bi-star-fill star"></i>
+                                <i class="bi bi-star-fill star"></i>
+                                <i class="bi bi-star-fill star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="review-card" data-aos="fade-up" data-aos-delay="700">
+                            <div class="reviewer-profile">
+                                <img src="img/user.png" alt="Profule Image" class="profile-image">
+                                <div class="reviewer-info">
+                                    <h3>Saurav Aggarwal </h3>
+                                    <p>Director, Stonex India</p>
+                                    <div class="verified-badge">
+                                        <i class="bi bi-patch-check-fill"></i>
+                                        Verified Review
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="review-content">"They have everything a homeowner wants in a stone contractor.
+                                Very
+                                Professional and Efficient.
+                                Possess very deep technical knowledge about marble installation which very few in the
+                                industry can match that.
+                                I have personally seen their work and without any doubt, they take great pride in each
+                                and
+                                every project they work."</p>
+                            <div class="rating">
+                                <i class="bi bi-star-fill star"></i>
+                                <i class="bi bi-star-fill star"></i>
+                                <i class="bi bi-star-fill star"></i>
+                                <i class="bi bi-star-fill star"></i>
+                                <i class="bi bi-star-fill star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="review-card" data-aos="fade-up" data-aos-delay="800">
+                            <div class="reviewer-profile">
+                                <img src="img/user.png" alt="Profule Image" class="profile-image">
+                                <div class="reviewer-info">
+                                    <h3>Ashok Chandak </h3>
+                                    <p>Director, Chandak Laboratories</p>
+                                    <div class="verified-badge">
+                                        <i class="bi bi-patch-check-fill"></i>
+                                        Verified Review
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="review-content">"12 years of association, 3 tastefully completed projects (plus
+                                one
+                                more coming up shortly) - this defines our trust in Mr. Deendayal.
+                                His experience and knowledge on the subject of laying has helped me select stones where
+                                even
+                                my architect had faltered,
+                                and once the selection is done, I leave it to him to execute - be it a immaculate coving
+                                on
+                                wall skirting or b the subtle chequering of bathroom floor to provide grip among many
+                                other
+                                facets of his work."</p>
+                            <div class="rating">
+                                <i class="bi bi-star-fill star"></i>
+                                <i class="bi bi-star-fill star"></i>
+                                <i class="bi bi-star-fill star"></i>
+                                <i class="bi bi-star-fill star"></i>
+                                <i class="bi bi-star-fill star"></i>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="swiper-button-next" data-aos="fade-left" data-aos-delay="800"></div>
+                <div class="swiper-button-prev" data-aos="fade-right" data-aos-delay="800"></div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-6 footer-section">
+                    <h2 class="footer-title">JANGID STONE & INTERIOR</h2>
+                    <p>Jangid Stone & Interior brings decades of experience in providing high-end stone solutions
+                        specifically designed for luxurious environments. Our dedication to quality, innovation, and
+                        meticulous craftsmanship guarantees that each project becomes a testament to durability and
+                        sophistication.
+
+                    </p>
+                    <div class="social-links">
+                        <a href="javascript:void(0);"><i class="bi bi-facebook"></i></a>
+                        <a href="javascript:void(0);"><i class="bi bi-twitter"></i></a>
+                        <a href="javascript:void(0);"><i class="bi bi-linkedin"></i></a>
+                        <a href="javascript:void(0);"><i class="bi bi-instagram"></i></a>
+                        <a href="javascript:void(0);"><i class="bi bi-tumblr"></i></a>
+                    </div>
+                    
+                </div>
+                <div class="col-lg-2 col-md-6 footer-section">
+                    <h3 class="footer-heading">Quick links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 footer-section">
+                    <h3 class="footer-heading">Our Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="stone-installation.html">Stone Installation</a></li>
+                        <li><a href="stone-polishing.html">Stone Polishing</a></li>
+                        <li><a href="stone-inlay.html">Stone Inlay</a></li>
+
+                        <li><a href="custom-home-design.html">Custom Home Design</a></li>
+
+                        <li><a href="stone-cnc-work.html">Stone CNC Work</a></li>
+
+                        <li><a href="stone-facade-dry-cladding-work.html">StoneFaçade Dry Cladding work</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 footer-section">
+                    <h3 class="footer-heading">Contact Us</h3>
+                    <div class="office-location">
+                        <i class="bi bi-telephone"></i>
+                        <div>
+                            <small>
+                                <a href="tel:9873860461">+91-9873860461</a>,
+                                <a href="tel:9999010461">9999010461</a>
+                            </small>
+                        </div>
+                    </div>
+                    <div class="office-location">
+                        <i class="bi bi-envelope"></i>
+                        <div>
+                            <a href="mailto:jangidstoneinterior@gmail.com">
+                                <small>jangidstoneinterior@gmail.com</small>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="office-location">
+                        <i class="bi bi-building"></i>
+                        <div>
+                            <small>Prop. no. 141, Mandi Hills, Mandi, New Delhi, Delhi
+                                110047</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <p class="mb-0">© All Rights Reserved 2025</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true,
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="/js/swiper.js"></script>
+
+</body>
+
+</html>
