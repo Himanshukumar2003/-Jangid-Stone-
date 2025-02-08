@@ -68,7 +68,7 @@ section {
     --e-global-color-secondary: #eaeae5;
     --e-global-color-accent: #f7f7f5;
     --e-global-color-75b5c6f: #fff;
-    --e-global-color-bc9e40f: #c4a045;
+    --e-global-color-bc9e40f: #00008B;
     --e-global-color-4fd4b10: #bed0ea;
 }
 
@@ -543,7 +543,7 @@ h1 {
 
 
 .subscribe-button:hover {
-    background-color: #c4a04c;
+    background-color: #00008B;
 }
 
 .office-location {
