@@ -100,7 +100,7 @@ section {
 /* Push it behind the main content */
 /* } */
 
- section {
+section {
     overflow: hidden;
 }
 
@@ -579,13 +579,17 @@ h1 {
     .footer-section {
         margin-bottom: 2rem;
     }
+
+    .page-bannner {
+        padding-top: 30px;
+    }
 }
 
 .page-bannner {
     position: relative;
-    height: 500px;
+    height: 400px;
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-        url(../img/bg/titlebar-img.jpg) center/cover no-repeat;
+        url(../img/bg/titlebar-img.jpeg) center/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
