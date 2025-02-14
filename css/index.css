@@ -1,39 +1,43 @@
-.hero {
-    position: relative;
+.hero-section  {
     height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     color: var(--white);
-    background: rgba(0, 0, 0, 0.5)
+    position: relative;
 }
-
-.hero .overly {
+.swiper-slide {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    overflow: visible !important;
+}
+ .overly {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
+    z-index: 10;
     bottom: 0;
     width: 100%; 
     height: 100%;
     overflow: hidden;
-    background-image: url(../img/hederbg.jpeg);
     background-size: cover; 
+    background: rgba(0, 0, 0, 0.5)
 
-    z-index: -1;
-}
-
-.video-contanier video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    /* Ensures the video maintains aspect ratio while filling the container */
 }
 
 
 
-
+.hero-content{
+display: flex;
+flex-direction: column;
+justify-content: center;
+height: 100%;
+}
 
 .hero-content h1 {
     margin-bottom: 1.5rem;
