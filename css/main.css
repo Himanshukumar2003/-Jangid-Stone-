@@ -84,6 +84,7 @@ section {
 
 .active {
     color: var(--e-global-color-primary) !important;
+    font-weight: 700;
 }
 
 /* 
@@ -155,7 +156,7 @@ h1 {
     padding: 0;
     margin: 0;
     display: flex;
-    gap: 20px; /* Links में gap */
+    gap: 10px; /* Links में gap */
 }
 
 .navbar-toggler {
@@ -176,8 +177,6 @@ h1 {
 
 /* Call Now Button */
 .call-btn {
- 
-
     padding: 12px 20px !important;
 }
 
@@ -185,6 +184,7 @@ h1 {
 nav .social-links {
     display: flex;
     gap: 10px;
+    justify-content: space-between;
     margin-top: 0px !important;
 }
 
