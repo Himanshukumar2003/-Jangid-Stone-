@@ -132,127 +132,109 @@ h1 {
     padding: 6rem 0;
 }
 
-
-
-.call-icon{
-    margin-right: 4px;
-}
-
-.navbar {
+nav{
     background-color: rgba(0, 0, 0, 0.8);
     padding: 1rem 2rem;
 }
 
-.navbar-brand img {
-    height: 50px;
+/* Parent Div को Flexbox से Layout सेट करना */
+.navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-
-
-.nav-link {
-    color: var(--e-global-color-75b5c6f);
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 600;
-    margin: 0 15px;
-    font-family: var(--e-global-typography-sndry-font-family);
-    position: relative;
+/* 1️⃣ Logo Styling */
+.navbar-logo img {
+    height: 50px; /* Logo का साइज */
 }
 
-.nav-link:hover {
-    color: var(--e-global-color-primary) !important;
-}
-
-
-.nav-link:hover .dropdown-menu {
-    display: block !important;
-}
-
-.dropdown-menu {
-    background-color: var(--white);
-    border: none;
-    border-radius: 0;
-    margin-top: 10px;
-    padding: 0.5rem 0;
-}
-
-.content-box {
-    max-height: 400px;
+/* 2️⃣ Navigation Links */
+.navbar-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px; /* Links में gap */
 }
 
 .navbar-toggler {
+   background-color: white ;
+   color: var(--e-global-color-bc9e40f);
+}
+
+.navbar-links .nav-link {
     color: white;
-    font-size: 40px
-}
-
-.dropdown-item {
-    color: var(--e-global-color-text);
-    font-size: 14px;
-    padding: 0.5rem 1.5rem;
-    font-weight: 600;
-    font-family: var(--e-global-typography-sndry-font-family);
+    font-weight: 500;
     text-transform: uppercase;
+    transition: color 0.3s;
 }
 
-.dropdown-item:hover {
-    background-color: var(--e-global-color-primary);
-    color: var(--e-global-color-75b5c6f);
+.navbar-links .nav-link:hover {
+    color: #3b5998;
 }
 
+/* Call Now Button */
+.call-btn {
+ 
 
-
-/* Dropdown arrow */
-.dropdown-toggle::after {
-    display: inline-block;
-    margin-left: 0.255em;
-    vertical-align: middle;
-    content: "";
-    border-top: 0.3em solid;
-    border-right: 0.3em solid transparent;
-    border-bottom: 0;
-    border-left: 0.3em solid transparent;
+    padding: 12px 20px !important;
 }
 
-/* Mobile styles */
-@media (max-width: 991px) {
-    .navbar-collapse {
-        /* background-color: rgba(0, 0, 0, 0.95); */
-        padding: 1rem;
-
-        margin: 1rem -1rem;
-    }
-
-    .dropdown-menu {
-        background-color: transparent;
-        border: none;
-        padding-left: 1rem;
-    }
-
-    .nav-link {
-        margin: 5px 0;
-    }
-}
-
-
-
-
-
-
-.nav .social-links{
+/* 3️⃣ Social Media Links */
+nav .social-links {
     display: flex;
+    gap: 10px;
+    margin-top: 0px !important;
+}
 
+.social-links a {
+    color: white;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #3b5998;
+}
+
+/* Responsive - Mobile View */
+@media (max-width: 991px) {
+   .logo-section{
+    width: 100%;
+   }
+nav .social-links  {
+        display: flex !important;
+        justify-content: center;
+        padding-bottom: 20px;
+        gap: 10px;
+        margin-top: 20px !important;
+    }
+    .navbar-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar-links {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .call-btn {
+        margin-top: 10px;
+    }
+
+    .social-links {
+        margin-top: 10px;
+    }
 }
 
 
-
-
-
-
-
-
-
-
-
+@media (min-width: 992px) and (max-width: 1200px) {
+    .navbar-links .nav-link {
+        font-size: 11px;
+    }
+}
 
 
 
@@ -615,6 +597,8 @@ h1 {
     font-weight: 700;
     margin-bottom: 1rem;
 }
+
+
 
 .page-bannner .breadcrumb {
     display: inline-flex;
