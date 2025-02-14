@@ -7,8 +7,14 @@
     color: var(--white);
     position: relative;
 }
-
-
+.hero .swiper-slide {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    overflow: visible !important;
+}
  .overly {
     position: absolute;
     top: 0;
@@ -20,7 +26,7 @@
     height: 100%;
     overflow: hidden;
     background-size: cover; 
-    background: rgba(0, 0, 0, 0.4)
+    background: rgba(0, 0, 0, 0.3)
 
 }
 
@@ -912,6 +918,17 @@ height: 100%;
     border-radius: 20px;
     font-size: 0.8rem;
     margin-top: 0.5rem;
+}
+
+
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: var(--e-global-color-primary) !important;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: var(--e-global-color-primary) !important;
 }
 
 /* contact */
