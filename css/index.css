@@ -914,17 +914,6 @@ height: 100%;
     margin-top: 0.5rem;
 }
 
-
-
-.swiper-button-next,
-.swiper-button-prev {
-    color: var(--e-global-color-primary) !important;
-}
-
-.swiper-pagination-bullet-active {
-    background-color: var(--e-global-color-primary) !important;
-}
-
 /* contact */
 
 .section-title {
