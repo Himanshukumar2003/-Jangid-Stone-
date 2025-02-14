@@ -134,6 +134,10 @@ h1 {
 
 
 
+.call-icon{
+    margin-right: 4px;
+}
+
 .navbar {
     background-color: rgba(0, 0, 0, 0.8);
     padding: 1rem 2rem;
@@ -234,7 +238,10 @@ h1 {
 
 
 
+.nav .social-links{
+    display: flex;
 
+}
 
 
 
