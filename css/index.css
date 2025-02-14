@@ -7,14 +7,8 @@
     color: var(--white);
     position: relative;
 }
-.swiper-slide {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 90vh;
-    overflow: visible !important;
-}
+
+
  .overly {
     position: absolute;
     top: 0;
