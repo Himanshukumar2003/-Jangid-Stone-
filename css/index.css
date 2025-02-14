@@ -1,3 +1,12 @@
+.navbar-content{
+    width: 100%;
+}
+ .navbar-collapse{
+    justify-content: space-evenly !important;
+}
+
+
+
 .hero-section  {
     height: 90vh;
     display: flex;
