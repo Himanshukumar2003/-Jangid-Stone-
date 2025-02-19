@@ -41,11 +41,11 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     // If all fields are valid, send email
     if ($is_valid) {
-        $to = 'admin@sairubberengg.co.in';
-        $subject = "SAi Rubber Form Details";
+        $to = 'jangidstoneinterior@gmail.com';
+        $subject = "Jangid Stone & Interior";
         $message = "
         <html>
-            <head><title>SAi Rubber Product Inquiry</title></head>
+            <head><title>Jangid Stone & Interior contact details</title></head>
             <body>
                 <p><b>Name:</b> {$con_name}</p>
                 <p><b>Email:</b> {$con_email}</p>
@@ -54,7 +54,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                 <p><b>Message:</b> {$con_message}</p>
             </body>
         </html>";
-        $header = "From: admin@sairubberengg.co.in\r\n";
+        $header = "From: jangidstoneinterior@gmail.com\r\n";
         $header .= "MIME-Version: 1.0\r\n";
         $header .= "Content-type: text/html\r\n";
 
